@@ -3,6 +3,7 @@ require 'formula'
 class Aubio < Formula
   url 'http://aubio.org/pub/aubio-0.3.2.tar.gz'
   homepage 'http://aubio.org/'
+  sha1 '8ef7ccbf18a4fa6db712a9192acafc9c8d080978'
 
   depends_on 'automake' => :build
   depends_on 'cmake'
